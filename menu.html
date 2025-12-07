@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/favicon.png" type="" />
+    <title>Feane</title>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Style css -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Responsive css -->
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section id="home-section" style="background-position: top">
+      <!-- Header Section start -->
+      <header class="container">
+        <!-- Navbar -->
+        <div class="navbar-section">
+          <nav class="navbar navbar-expand-lg d-flex">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="index.html" id="nav-logo">Feane</a>
+              <button
+                class="navbar-toggler bg-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-self-center" id="navbar-links">
+                  <li class="nav-item me-md-2">
+                    <a class="nav-link active" aria-current="page" href="index.html"
+                      ><span>HOME</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="menu.html"><span class="home-clr">MENU</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="book.html">BOOKTABLE</a>
+                  </li>
+                </ul>
+                <div class="nav-icons">
+                  <a href="#"><i class="fa-solid fa-user"></i></a>
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <button class="default-btn">Order Online</button>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Header section end -->
+    </section>
+    <!-- Food Section Start -->
+    <section id="food-section" style="padding-block: 90px">
+      <div class="container">
+        <!-- Food Heading -->
+        <div class="food-heading">
+          <h2>Our Menu</h2>
+        </div>
+        <!-- Filter Menu -->
+        <div class="filters-menu">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" data-tab="all">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-tab="burger">Burger</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-tab="pizza">Pizza</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-tab="pasta">Pasta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-tab="fries">Fries</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Filter Menu contents -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 content" data-tab="pizza">
+            <div class="food-box">
+              <div class="food-img">
+                <img src="images/f1.png" class="img-fluid" />
+              </div>
+              <div class="food-details">
+                <h5>Delicious Pizza</h5>
+                <p>
+                  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                  voluptatem repellendus sed eaque
+                </p>
+                <div class="food-options">
+                  <h6>$20</h6>
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 content" data-tab="burger">
+            <div class="food-box">
+              <div class="food-img">
+                <img src="images/f2.png" class="img-fluid" />
+              </div>
+              <div class="food-details">
+                <h5>Delicious Burger</h5>
+                <p>
+                  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                  voluptatem repellendus sed eaque
+                </p>
+                <div class="food-options">
+                  <h6>$15</h6>
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 content" data-tab="pizza">
+            <div class="food-box">
+              <div class="food-img">
+                <img src="images/f3.png" class="img-fluid" />
+              </div>
+              <div class="food-details">
+                <h5>Delicious Pizza</h5>
+                <p>
+                  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                  voluptatem repellendus sed eaque
+                </p>
+                <div class="food-options">
+                  <h6>$17</h6>
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 content" data-tab="pasta">
+            <div class="food-box">
+              <div class="food-img">
+                <img src="images/f4.png" class="img-fluid" />
+              </div>
+              <div class="food-details">
+                <h5>Delicious Pasta</h5>
+                <p>
+                  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                  voluptatem repellendus sed eaque
+                </p>
+                <div class="food-options">
+                  <h6>$18</h6>
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 content" data-tab="fries">
+            <div class="food-box">
+              <div class="food-img">
+                <img src="images/f5.png" class="img-fluid" />
+              </div>
+              <div class="food-details">
+                <h5>French Fries</h5>
+                <p>
+                  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                  voluptatem repellendus sed eaque
+                </p>
+                <div class="food-options">
+                  <h6>$10</h6>
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 content" data-tab="pizza">
+            <div class="food-box">
+              <div class="food-img">
+                <img src="images/f6.png" class="img-fluid" />
+              </div>
+              <div class="food-details">
+                <h5>Delicious Pizza</h5>
+                <p>
+                  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                  voluptatem repellendus sed eaque
+                </p>
+                <div class="food-options">
+                  <h6>$15</h6>
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 content" data-tab="burger">
+            <div class="food-box">
+              <div class="food-img">
+                <img src="images/f7.png" class="img-fluid" />
+              </div>
+              <div class="food-details">
+                <h5>Tasty Burger</h5>
+                <p>
+                  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                  voluptatem repellendus sed eaque
+                </p>
+                <div class="food-options">
+                  <h6>$12</h6>
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 content" data-tab="burger">
+            <div class="food-box">
+              <div class="food-img">
+                <img src="images/f8.png" class="img-fluid" />
+              </div>
+              <div class="food-details">
+                <h5>Tasty Burger</h5>
+                <p>
+                  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                  voluptatem repellendus sed eaque
+                </p>
+                <div class="food-options">
+                  <h6>$14</h6>
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 content" data-tab="pasta">
+            <div class="food-box">
+              <div class="food-img">
+                <img src="images/f9.png" class="img-fluid" />
+              </div>
+              <div class="food-details">
+                <h5>Delicious Pasta</h5>
+                <p>
+                  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                  voluptatem repellendus sed eaque
+                </p>
+                <div class="food-options">
+                  <h6>$14</h6>
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Filter menu button -->
+        <div class="btn-box">
+          <a class="default-btn" href="#">View More</a>
+        </div>
+      </div>
+    </section>
+    <!-- Food Section End -->
+    <!-- Footer section start -->
+    <section id="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-col">
+            <div class="footer-contact">
+              <h4>Contact Us</h4>
+              <div class="contact-link">
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Location</a>
+                <a href="#"><i class="fa-solid fa-phone"></i>Call +01 1234567890</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>demo@gmail.com </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 footer-col">
+            <div class="footer-detail">
+              <a href="#">Feane</a>
+              <p>
+                Necessary, making this the first true generator on the Internet. It uses a
+                dictionary of over 200 Latin words, combined with
+              </p>
+            </div>
+            <div class="footer-social">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 footer-col">
+            <div class="footer-extra">
+              <h4>Opening Hours</h4>
+              <p>Everyday</p>
+              <p>10.00 Am -10.00 Pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-info">
+          <p>© 2025 All Rights Reserved By Free Html Templates</p>
+          <p>© Redesign By Maksudur Rahman</p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section end -->
+
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
